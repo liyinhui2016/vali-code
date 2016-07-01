@@ -72,6 +72,7 @@ public interface VCodeGen {
      * range of triangle function
      * @param range
      */
+
     void setTriangleRange(int range);
 
     /**
