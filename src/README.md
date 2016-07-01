@@ -14,7 +14,7 @@ stream：输出流，可以到文件，网络响应，内存等。
 **fontSize 默认为height的 90%**
 ##public void genCode(String code ,OutputStream out)
 按照设置参数生成验证码图片
-##public void genCommonCode(OutputStream out) 
+##public void genCommonCode(OutputStream out)
 生成默认图片：
 1. 参数甚至
 	this.setNoiseWeight(2);
