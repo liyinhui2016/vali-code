@@ -38,12 +38,13 @@ public class TestPlainCodeGen {
     @Test
     public void testGenCode3() throws FileNotFoundException {
         File f = new File("./test.jpg");
-        if(f.exists()){
+        if (f.exists()) {
             f.delete();
         }
-        VCodeGen gen  = new PlainCodeGen();
+        VCodeGen gen = new PlainCodeGen();
         gen.genCommonCode(new FileOutputStream(f));
     }
+
 
     @Test
     public void testGenCode4(){
